@@ -3,8 +3,7 @@ const dotenv = require('dotenv')
 
 dotenv.config()
 
-const URL = process.env.MONGODB_URL;
-
+const URL = process.env.MONGODB_URI
 
 const dbConnect = async()=>{
     try {
